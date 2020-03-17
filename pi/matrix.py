@@ -7,7 +7,7 @@ COLLECTION = 'raspberry_collection'
 DOCUMENT = 'lectorpi_doc'
 
 # firebase
-cred = credentials.Certificate("./config/iotlabo-85706-firebase-adminsdk-wd3oa-d11daf23ba.json")
+cred = credentials.Certificate("./config/sense-pi-firebase-adminsdk-lmx2i-bb78636e85.json")
 firebase_admin.initialize_app(cred)
 
 # sensehat 
